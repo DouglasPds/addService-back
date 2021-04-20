@@ -19,6 +19,9 @@
 		"prettier"
 	],
 	"rules": {
+		"camelcase": "off",
+		"no-shadow": "off",
+		"class-methods-use-this": "off",
 		"prettier/prettier": ["error",
 			{
 				"singleQuote": true,
