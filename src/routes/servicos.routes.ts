@@ -35,7 +35,7 @@ servicosRouter.get('/:id', async (request, response) => {
 	const { id } = request.params;
 
 	const servicosRepository = getRepository(Servico);
-	const servico = servicosRepository.findOne(id);
+	const servico = await servicosRepository.findOne(id);
 
 	return response.json(servico);
 });
