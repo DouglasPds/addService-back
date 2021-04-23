@@ -6,4 +6,4 @@
 
 `yarn dev:server` para iniciar o servidor.
 
-O banco está na porta 5434, para alterar os dados mude no arquivo ormconfig.json.
+O banco está na porta 5434, para alterar os dados do banco mude no arquivo ormconfig.json.
